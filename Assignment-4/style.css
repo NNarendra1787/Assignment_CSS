@@ -74,57 +74,62 @@ header{
     display: grid;
     width: 99%;
     border: 1px solid black;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(autofit,  minmax(4, 1fr));
+    /* grid-template-columns: repeat(4, 1fr); */
     /* grid-template-rows: repeat(2, 1fr); */
     margin: 30px 0px;
     color: white;
-    grid-gap: 12px;
+    grid-gap: 1rem;
 
 }
 #up-bottom{
     background-color: rgb(191, 53, 76);
-    grid-area: 1/1/6/5;
+    grid-area: 1/1/1/5;
     text-align: center;
+    font-size: 20px;
 }
 #left-bot{
     background-color: lightgreen;
     font-size: 27px;
-    width: 226px;
-    padding: 0px 90px;
+    text-align: center;
+    /* width: 226px; */
+    /* padding: 0px 90px; */
     /* line-height: 12px; */
 }
 #mid-bot{
     background-color: #65abc1;
     font-size: 23px;
-    width: 350px;
-    padding: 0px 90px;
+    /* width: 350px; */
+    /* padding: 0px 90px; */
 }
 #right-bot{
     background-color: #1d34af;
     font-size: 20px;
-    width: 210px;
+    /* width: 210px; */
     font-weight: bold;
     /* padding-bottom: 0px; */
-    padding-right: 200px;
+    /* padding-right: 200px; */
 }
 #bot-right{
     background-color: gray;
-    grid-area: 6/4/8/4;
-    width: 70px;
-    margin-right: 10px;
+    grid-area: 2/4/5/5;
+    width: 50px;
+    /* text-align: center; */
+    /* margin-right: 10px; */
     padding: 12px 20px;
 }
 
 #cent-bot{
     background-color: #ff9e00d6;
-    grid-area: 7/1/8/4;
+    grid-area: 3/1/5/4;
     font-size: 18px;
 }
 #last-bot{
     background-color: cyan;
-    grid-area: 8/1/9/5;
+    grid-area: 5/1/5/5;
     text-align: center;
     color: black;
     font-weight: bold;
     font-size: 20px;
 }
+
