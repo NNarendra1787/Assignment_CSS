@@ -145,7 +145,7 @@ li a{
     header::before{
         background: url("./img/shara\ desert.jpg")center center/cover;
         content: "";
-        height: 240%;
+        height: 300%;
         width: 100%;
         position: absolute;
         top: 0px;
@@ -248,7 +248,7 @@ li a{
     header::before{
         background: url("./img/shara\ desert.jpg")center center/cover;
         content: "";
-        height: 250%;
+        height: 300%;
         width: 100%;
         position: absolute;
         top: 0px;
