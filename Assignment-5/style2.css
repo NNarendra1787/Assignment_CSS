@@ -61,7 +61,7 @@ body{
     width: 425px;
     height: 220px;
     position: absolute;
-    bottom: 60px;
+    bottom: 80px;
     left: 440px;
     z-index: 5;
     
@@ -88,12 +88,12 @@ body{
 .wheel img:first-child{
     position: absolute;
     position: absolute;
-    bottom: 82px;
+    bottom: 102px;
     left: 475px;
 }
 .wheel img:last-child{
     position: absolute;
-    bottom: 82px;
+    bottom: 102px;
     right: 700px;
 }
 @keyframes wheel {
@@ -107,7 +107,7 @@ body{
     background-image: url('./img/Tiranga1.svg');
     position: absolute;
     right: 680px;
-    bottom: 185px;
+    bottom: 203px;
     z-index: 7;
     animation: car 1s infinite linear;
 }
